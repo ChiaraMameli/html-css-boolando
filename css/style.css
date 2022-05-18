@@ -180,3 +180,33 @@ li {
     text-align: center;
     line-height: 80px;
 }
+
+/* HOOVER */
+
+#white-man:hover {
+    content: url(../img/1.webp);
+}
+
+#white-girl:hover {
+    content: url(../img/2.webp);
+}
+
+#trousers-girl:hover {
+    content: url(../img/3.webp);
+}
+
+#black-man:hover {
+    content: url(../img/4.webp);
+}
+
+#dress-girl:hover {
+    content: url(../img/5.webp);
+}
+
+#black-woman:hover {
+    content: url(../img/6.webp);
+}
+
+.heart:hover {
+    color: red;
+}
