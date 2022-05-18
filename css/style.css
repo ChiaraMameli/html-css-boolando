@@ -42,9 +42,17 @@ body {
 .padd-l-30 {
     padding-left: 30px;
 }
+.padd-teb-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .flex-end {
     justify-content: flex-end;
+}
+
+.white-txt {
+    color: #FFF;
 }
 
 /* HEADER */
@@ -209,4 +217,46 @@ li {
 
 .heart:hover {
     color: red;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1A1A1A;
+}
+
+.footer {
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.info { 
+    display: inline-block;
+    width: 30%;
+}
+
+.legal {
+    justify-content: space-between;
+
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.social {
+    justify-content: flex-end;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.social i {
+    padding-left: 10px;
+}
+
+#find-us {
+    text-align: center;
 }
