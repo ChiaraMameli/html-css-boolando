@@ -11,14 +11,13 @@
 }
 
 body {
-    padding-top: 120px;
     font-family: sans-serif;
 }
 
 /* UTILS */
 
 .container {
-    width: 2200px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -59,7 +58,7 @@ body {
 
 header {
     width: 100%;
-    height: 120px;
+    height: 70px;
     position: fixed;
     top: 0;
     left: 0;
@@ -70,7 +69,7 @@ header {
 header .container {
     justify-content: space-between;
     align-items: center;
-    height: 120px;
+    height: 70px;
 }
 
 #bg-orange {
@@ -79,7 +78,7 @@ header .container {
 
 
 #logo {
-    height: 50px;
+    height: 20px;
 }
 
 #img-container {
@@ -96,9 +95,9 @@ nav ul li a {
     color: #FFF;
     text-decoration: none;
     padding-right: 30px;
-    font-size: 28px;
-    height: 80px;
-    line-height: 80px;
+    font-size: 14px;
+    height: 70px;
+    line-height: 70px;
     justify-content: flex-start;
     text-align: left;
 }
@@ -110,7 +109,7 @@ li {
 /* CARDS */
 
 .row{
-    padding-top: 120px;
+    padding-top: 100px;
     justify-content: space-between;
 }
 
@@ -130,18 +129,20 @@ li {
 
 .brand {
     text-transform: capitalize;
-    font-size: 22px;
+    font-size: 14px;
 }
 
 .description {
     text-transform: uppercase;
     font-family: bold;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .price {
     color: red;
     font-family: bold;
+    font-size: 14px;
+
 }
 
 .old-price {
@@ -155,11 +156,11 @@ li {
 
 .label {
     left: 0;
-    bottom: 150px;
+    bottom: 80px;
     position: absolute;
-    padding: 8px 20px;
+    padding: 5px 10px;
     color: #FFF;
-    font-size: 24px;
+    font-size: 15px;
 }
 
 .label.discount {
@@ -168,7 +169,7 @@ li {
 
 .label.green {
     background-color: green;
-    left: 100px;
+    left: 60px;
 }
 
 .label.green.attch {
@@ -178,40 +179,40 @@ li {
 /* HEARTS */
 
 .heart {
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     background-color: white;
     right: 0;
     top: 20px;
     color:#000;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
-    line-height: 80px;
+    line-height: 50px;
 }
 
 /* HOOVER */
 
-#white-man:hover {
+#levis-light:hover {
     content: url(../img/1.webp);
 }
 
-#white-girl:hover {
+#guess:hover {
     content: url(../img/2.webp);
 }
 
-#trousers-girl:hover {
+#zucch-filato:hover {
     content: url(../img/3.webp);
 }
 
-#black-man:hover {
+#levis:hover {
     content: url(../img/4.webp);
 }
 
-#dress-girl:hover {
+#maya:hover {
     content: url(../img/5.webp);
 }
 
-#black-woman:hover {
+#esprit:hover {
     content: url(../img/6.webp);
 }
 
@@ -223,17 +224,16 @@ li {
 
 footer {
     background-color: #1A1A1A;
+    margin-top: 30px;
 }
 
 .footer {
     justify-content: space-between;
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 14px;
 }
 
 .info { 
     display: inline-block;
-    width: 30%;
 }
 
 .legal {
@@ -242,7 +242,8 @@ footer {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 
 .social {
@@ -250,7 +251,11 @@ h3 {
     display: inline-block;
     width: 300px;
     text-align: center;
-    font-size: 30px;
+    font-size: 14px;
+}
+
+.legal li{
+    padding-right: 20px;
 }
 
 .social i {
@@ -259,4 +264,6 @@ h3 {
 
 #find-us {
     text-align: center;
+    padding-bottom: 10px;
+
 }
